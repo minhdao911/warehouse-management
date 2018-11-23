@@ -1,0 +1,14 @@
+.nav .navbar {
+    width: 100%;
+    background-color: var(--purple);
+    color: white;
+}
+
+.nav .form-control {
+    width: 500px;
+}
+
+.nav .btn {
+    background-color: var(--red);
+    color: white;
+}

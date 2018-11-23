@@ -1,0 +1,44 @@
+.option {
+    padding: 15px 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.option-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-container > p {
+    margin: 0;
+}
+
+.option-container > p:hover {
+    cursor: pointer;
+}
+
+.option > button {
+    display: inline-block;
+    margin-left:auto; 
+    margin-right:0;
+}
+
+.option .filter {
+    display: flex;
+    padding: 20px;
+}
+
+.option .field {
+    flex-grow: 1;
+}
+
+.option .field:last-child {
+    flex-grow: 2;
+}
+
+.option .input-group {
+    width: 300px;
+}
+
+.option .field .btn {
+    width: 100px;
+}

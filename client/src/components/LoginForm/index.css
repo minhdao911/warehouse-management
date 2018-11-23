@@ -1,0 +1,37 @@
+.wrap {
+  background-color: var(--purple);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.wrap .container {
+  background-color: white;
+  width: 35%;
+  padding: 50px 30px;
+  border-radius: 10px;
+}
+
+.wrap .form-control {
+  margin-bottom: 0;
+}
+
+.wrap .btn {
+  background-color: var(--red);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.wrap .btn:hover {
+  background-color: var(--red-dark);
+}
+
+.wrap .forgotPassword {
+  width: 100%;
+  text-align: center;
+}
+
+.wrap .forgotPassword:hover {
+  cursor: pointer;
+  color: var(--gray-dark);
+}
